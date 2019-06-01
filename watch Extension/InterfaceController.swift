@@ -73,6 +73,6 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func handleTap(_ sender: Any) {
-        pushController(withName: "MovieDetailController", context: nil)
+        pushController(withName: "MovieDetailController", context: "Release Movie")
     }
 }

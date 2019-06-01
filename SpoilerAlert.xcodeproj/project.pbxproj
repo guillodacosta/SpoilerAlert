@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AECC3A722A24652008F3A18 /* MovieDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECC3A622A24652008F3A18 /* MovieDetailController.swift */; };
+		0AECC3A922A2473F008F3A18 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECC3A822A2473F008F3A18 /* Movie.swift */; };
 		8425CEB92290B75100E50BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425CEB82290B75100E50BAF /* AppDelegate.swift */; };
 		8425CEBB2290B75100E50BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425CEBA2290B75100E50BAF /* ViewController.swift */; };
 		8425CEBE2290B75100E50BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425CEBC2290B75100E50BAF /* Main.storyboard */; };
@@ -82,6 +84,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0AECC3A622A24652008F3A18 /* MovieDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailController.swift; sourceTree = "<group>"; };
+		0AECC3A822A2473F008F3A18 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		8425CEB52290B75100E50BAF /* SpoilerAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpoilerAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8425CEB82290B75100E50BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8425CEBA2290B75100E50BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -216,6 +220,8 @@
 				8425CF012290B7CA00E50BAF /* Assets.xcassets */,
 				8425CF032290B7CA00E50BAF /* Info.plist */,
 				8425CF042290B7CA00E50BAF /* PushNotificationPayload.apns */,
+				0AECC3A622A24652008F3A18 /* MovieDetailController.swift */,
+				0AECC3A822A2473F008F3A18 /* Movie.swift */,
 			);
 			path = "watch Extension";
 			sourceTree = "<group>";
@@ -438,6 +444,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8425CEFE2290B7C900E50BAF /* NotificationController.swift in Sources */,
+				0AECC3A722A24652008F3A18 /* MovieDetailController.swift in Sources */,
+				0AECC3A922A2473F008F3A18 /* Movie.swift in Sources */,
 				8425CF002290B7C900E50BAF /* ComplicationController.swift in Sources */,
 				8425CEFC2290B7C900E50BAF /* ExtensionDelegate.swift in Sources */,
 				8425CEFA2290B7C900E50BAF /* InterfaceController.swift in Sources */,

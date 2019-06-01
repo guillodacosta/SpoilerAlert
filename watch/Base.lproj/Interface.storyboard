@@ -12,10 +12,13 @@
         <!--MovieDetailController-->
         <scene sceneID="E8K-e7-Tda">
             <objects>
-                <controller identifier="MovieDetailController" id="8FB-oz-Qg7">
+                <controller identifier="MovieDetailController" id="8FB-oz-Qg7" customClass="MovieDetailController" customModule="watch_Extension">
                     <items>
                         <label alignment="left" text="Movie Detail" id="LFc-3n-iz5"/>
                     </items>
+                    <connections>
+                        <outlet property="movieNameLabel" destination="LFc-3n-iz5" id="NjC-JJ-Hn6"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="207" y="36"/>
