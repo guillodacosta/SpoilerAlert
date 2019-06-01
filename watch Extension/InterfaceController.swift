@@ -72,4 +72,7 @@ class InterfaceController: WKInterfaceController {
         imageMovie.setImageWithUrl(url : "https://picsum.photos/200/300", scale: 1.0)
     }
     
+    @IBAction func handleTap(_ sender: Any) {
+        pushController(withName: "MovieDetailController", context: nil)
+    }
 }

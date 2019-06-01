@@ -9,6 +9,17 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
     </dependencies>
     <scenes>
+        <!--MovieDetailController-->
+        <scene sceneID="E8K-e7-Tda">
+            <objects>
+                <controller identifier="MovieDetailController" id="8FB-oz-Qg7">
+                    <items>
+                        <label alignment="left" text="Movie Detail" id="LFc-3n-iz5"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="207" y="36"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
@@ -33,6 +44,11 @@
                                         <action selector="handleSwipe:" destination="AgC-eL-Hgc" id="QzU-w5-X8N"/>
                                     </connections>
                                 </swipeGestureRecognizer>
+                                <tapGestureRecognizer id="ImX-5Z-sYY">
+                                    <connections>
+                                        <action selector="handleTap:" destination="AgC-eL-Hgc" id="8rp-xs-GMv"/>
+                                    </connections>
+                                </tapGestureRecognizer>
                             </gestureRecognizers>
                         </group>
                     </items>
